@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="city_and_country">%1$s, %2$s</string>
+    <string name="temp">%1$s °C</string>
+    <string name="min_temp">Min : %1$s °C</string>
+    <string name="max_temp">Max : %1$s °C</string>
+    <string name="wind_speed">%1$s m/s</string>
+    <string name="feels_like">%1$s °C</string>
+    <string name="last_updated">Last Updated : %1$s</string>
+    <string name="last_updated_">Last updated :</string>
+    <string name="monday">Monday</string>
+    <string name="min_00_c">Min : 00 °C</string>
+    <string name="today">Today</string>
+    <string name="_30_c">30 °C</string>
+    <string name="max_50_c">Max : 50 °C</string>
+    <string name="sunny">SUNNY</string>
+    <string name="sample_date">01 January 2031</string>
+    <string name="_40">40 \%</string>
+    <string name="humidity">Humidity</string>
+    <string name="_00_00_m_s">00.00 m/s</string>
+    <string name="wind_speed_">Wind Speed</string>
+    <string name="_10_c">10 °C</string>
+    <string name="real_feel">Real Feel</string>
+    <string name="_00_00">00:00</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="_00_00_">00:00</string>
+    <string name="sunset">Sunset</string>
+    <string name="_0_m">0 m</string>
+    <string name="visibility">Visibility</string>
+    <string name="quote">What\'s the weather today?</string>
+</resources>
