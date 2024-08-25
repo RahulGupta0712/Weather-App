@@ -20,7 +20,7 @@ import java.time.format.DateTimeFormatter
 import java.util.Date
 import java.util.TimeZone
 
-// api key : cb331f291372f6861c4958b4e0aad581
+// api key : 
 
 class MainActivity : AppCompatActivity() {
     private val binding by lazy {
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             .build().create(ApiInterface::class.java)
 
         val response =
-            retrofit.getWeatherData(city, "cb331f291372f6861c4958b4e0aad581", "metric")
+            retrofit.getWeatherData(city, "", "metric")
 
         response.enqueue(object : Callback<WeatherClass> {
             override fun onResponse(call: Call<WeatherClass>, response: Response<WeatherClass>) {
